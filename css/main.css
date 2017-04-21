@@ -1,0 +1,26 @@
+body {
+  font-family: arial;
+  font-size: 1rem;
+  box-sizing: border-box;
+  line-height: 0.5rem; }
+
+h1 {
+  background: red;
+  color: white; }
+
+h2 {
+  color: blue; }
+
+.thumb-info {
+  border: 1px solid grey;
+  padding: 1rem;
+  margin: 0.5rem; }
+
+.thumb-sec div:first-child {
+  background: rgba(128, 128, 128, 0.7); }
+
+.thumb-sec div:nth-child(2) {
+  background: rgba(128, 128, 128, 0.5); }
+
+.thumb-sec div:last-child {
+  background: rgba(128, 128, 128, 0.3); }

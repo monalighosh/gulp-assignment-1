@@ -1,0 +1,17 @@
+.thumb-info {
+	border: 1px solid grey;
+	padding: 1rem;
+	margin: 0.5rem;
+}
+
+.thumb-sec div:first-child {
+	background: rgba(grey, 0.7);
+}
+
+.thumb-sec div:nth-child(2) {
+	background: rgba(grey, 0.5);
+}
+
+.thumb-sec div:last-child {
+	background: rgba(grey, 0.3);
+}
