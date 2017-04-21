@@ -96,13 +96,13 @@ gulp.task("version", function () {
 //Git 
 //Run git add 
 gulp.task("add", function(){
-  return gulp.src(["index.html", "build"])
+  return gulp.src(["index.html", "gulpfile.js", "package.json", "build"])
     .pipe(git.add());
 });
 
 // Run git commit 
 gulp.task("commit", function(){
-  return gulp.src(["index.html", "build"])
+  return gulp.src(["index.html", "gulpfile.js", "package.json", "build"])
     .pipe(git.commit('initial commit'));
 });
 
